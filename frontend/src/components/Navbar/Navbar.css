@@ -29,14 +29,15 @@
   display: flex;
    list-style: none;
    gap: 20px;
-   color: #49557e;
+   /* color: #49557e; */
+   color: black;
    font-size: 18px;
 }
 
 .navbar li{
   cursor: pointer;
 }
-.navbar li:hover{
+.navbar li:hover, .navbar a:hover{
   color: crimson;
 }
 
@@ -50,7 +51,8 @@
 .navbar button{
   background: transparent;
   font-size: 16px;
-  color: #49557e;
+  /* color: #49557e; */
+  color: black;
   padding: 10px 30px;
   cursor: pointer;
   border: 1px solid crimson;
@@ -59,12 +61,14 @@
 }
 
 .navbar button:hover{
-  background: #fff4f2;
+  background: crimson;
+  color: white;
 }
 
 .navbar .active{
   padding-bottom: 2px;
-  border-bottom: 2px solid #49557e;
+  /* border-bottom: 2px solid #49557e; */
+  border-bottom: 2px solid red;
 }
 
 .navbar-search-icon{
