@@ -5,8 +5,8 @@ import header_img from './header_img.png'
 import header_img2 from './header_img2.jpg'
 import search_icon from './search_icon.png'
 import cart_icon from './shopping_cart_icon.svg'
-import menu_1 from './menu_1.png'
-import menu_2 from './menu_2.png'
+import menu_1 from './breakfast.png'
+import menu_2 from './snacks.png'
 import menu_3 from './menu_3.png'
 import menu_4 from './menu_4.png'
 import menu_5 from './menu_5.png'
@@ -102,11 +102,11 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Breakfast",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Snacks",
         menu_image: menu_2
     },
     {
