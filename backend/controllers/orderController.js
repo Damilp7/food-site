@@ -12,7 +12,7 @@ const placeOrder = async (req,res) => {
 
 
   // const frontend_url = "http://localhost:5174";
-  const frontend_url = "https://food-site-client.vercel.app/";
+  const frontend_url = "https://food-site-client.vercel.app";
 
   try {
     const newOrder = new orderModel({
